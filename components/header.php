@@ -5,13 +5,17 @@
 
     <header>
         <nav class="navbar bg-dark">
-            <a href="../index.php">
-                <img class="logo" src="./assets/images/logo.svg" alt="Logo de estrela do site MovieStar">
-                MovieStar
-            </a>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar Filmes" aria-label="Search">
-            </form>
+            <div class="">
+                <a href="../index.php">
+                    <img class="logo" src="./assets/images/logo.svg" alt="Logo de estrela do site MovieStar">
+                    MovieStar
+                </a>
+            </div>
+            <form class="container-fluid">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Buscar Filmes" aria-label="Buscar Filmes" aria-describedby="basic-addon1">
+                    <span class="input-group-text" id="basic-addon1"><button><i class="fa fa-search" aria-hidden="true"></i></button></span>
+                </div>
         </nav>
     </header>
 

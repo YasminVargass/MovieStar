@@ -1,5 +1,15 @@
-header nav {
+header .navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     padding: 12px;
+}
+header .input-group {
+    width: 40%;
+}
+header nav div{
+    display: flex;
+    flex-direction: row;
 }
 header nav .logo{
     height: 40px;
