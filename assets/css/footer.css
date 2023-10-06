@@ -1,5 +1,5 @@
 footer{
-    min-height: 10%;
+    min-height: 12%;
     min-width: 100%;
     display: flex;
     justify-content: center;
@@ -13,13 +13,13 @@ footer .container-links{
     align-items: center;
 }
 footer .medias-icons{
-    margin: 16px;
+    margin: 14px;
 }
 footer .medias-icons ul,li{
     list-style: none;
     color: #fff;    
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 footer .medias-icons i{
@@ -27,6 +27,9 @@ color: #fff;
 font-size: 25px;
 }
 
+footer .medias-icons i:hover{
+font-size: 27px;
+}
 footer .user-interative{
     color: #fff;
 }
@@ -34,4 +37,7 @@ footer .user-interative ul li a{
 text-decoration: none;
 color: #fff;    
 
+}
+footer .user-interative ul li a:hover{
+    border-bottom: 1px solid yellow;
 }

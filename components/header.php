@@ -6,7 +6,7 @@
     <header>
         <nav class="navbar bg-dark">
             <div>
-                <a href="../index.php" class="logo-container">
+                <a href="./index.php" class="logo-container">
                     <img class="logo" src="./assets/images/logo.svg" alt="Logo de estrela do site MovieStar">
                     MovieStar
                 </a>

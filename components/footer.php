@@ -14,11 +14,11 @@
                 </li>
             </ul>
         </div>
-        <div class="user-interative">
+        <div class="user-interative mt-3">
             <ul>
-                <li><a href="">Adicionar Filme</a></li>
-                <li><a href="">Adicionar Crítica</a></li>
-                <li><a href="">Entrar/Cadastrar</a></li>
+                <li><a href="#">Adicionar Filme</a></li>
+                <li><a href="#">Adicionar Crítica</a></li>
+                <li><a href="#">Entrar/Cadastrar</a></li>
             </ul>
         </div>
 
