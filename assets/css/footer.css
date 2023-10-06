@@ -1,0 +1,37 @@
+footer{
+    min-height: 10%;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    background-color: #000;
+}
+footer .container-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer .medias-icons{
+    margin: 16px;
+}
+footer .medias-icons ul,li{
+    list-style: none;
+    color: #fff;    
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer .medias-icons i{
+color: #fff;
+font-size: 25px;
+}
+
+footer .user-interative{
+    color: #fff;
+}
+footer .user-interative ul li a{
+text-decoration: none;
+color: #fff;    
+
+}

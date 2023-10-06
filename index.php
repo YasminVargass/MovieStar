@@ -5,7 +5,6 @@
     <?php
     require_once "./components/head.php";
     ?>
-    <link rel="stylesheet" href="./assets/css/header.css">
     <title>MovieStar</title>
 </head>
 
@@ -17,7 +16,7 @@
 
 
     <?php
-require_once "./components/footer.php";
+    require_once "./components/footer.php";
     ?>
 
 </body>
