@@ -21,7 +21,9 @@
                 <li><a href="#">Entrar/Cadastrar</a></li>
             </ul>
         </div>
-
+        <span class="mb-2">
+            <p>© Hora de Codar 2023</p>
+        </span>
     </div>
 
 

@@ -41,3 +41,7 @@ color: #fff;
 footer .user-interative ul li a:hover{
     border-bottom: 1px solid yellow;
 }
+footer span p{
+    color: #fff;
+    font-size: 16px;
+}
