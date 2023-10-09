@@ -2,15 +2,15 @@
 
     <div class="container-links">
         <div class="medias-icons">
-            <ul>
+            <ul class="mt-2">
                 <li>
-                    <a href="#"></a><i class="fab fa-facebook-square me-3"></i></a>
+                    <a href="#" target="_blank"></a><i class="fab fa-facebook-square me-3"></i></a>
                 </li>
                 <li>
-                    <a href="#"><i class="fab fa-instagram me-3"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram me-3"></i></a>
                 </li>
                 <li>
-                    <a href="#"><i class="fab fa-youtube me-3"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube me-3"></i></a>
                 </li>
             </ul>
         </div>
