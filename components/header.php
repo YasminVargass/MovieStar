@@ -1,3 +1,9 @@
+<?php
+require_once ("./data/connection.php");
+
+$flassmessage = [];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -22,8 +28,8 @@
                 </div>
             </form>
             <div class="user-actions">
-                <a href="#" class="sign-in">Entrar</a>
-                <a href="#" class="sign-up">Cadastrar</a>
+                <a href="./auth.php" class="sign-in">Entrar</a>
+                <a href="./auth.php" class="sign-up">Cadastrar</a>
             </div>
         </nav>
     </header>
@@ -31,3 +37,9 @@
 </body>
 
 </html>
+
+<?php if(!empty($flassmessage["msg"])) : ?>
+<div class="show-message">
+    <p class="message <?= $flassMessage["type"] ?>"><?= $flassMessage["msg"] ?></p>
+</div>
+<?php endif ; ?>

@@ -12,7 +12,7 @@
     <?php
     require_once "./components/header.php";
     ?>
-    <h1>test</h1>
+    <h1>Home</h1>
 
 
     <?php
