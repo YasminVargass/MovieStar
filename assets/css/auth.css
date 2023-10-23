@@ -1,0 +1,11 @@
+div .auth-h2{
+    text-align: center;
+    border-bottom:2px solid #F5C518;
+    width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+div form{
+    max-width: 400px;
+    margin: 30px auto;
+}

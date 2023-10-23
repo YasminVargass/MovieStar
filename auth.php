@@ -13,10 +13,12 @@
     <?php
     require_once "./components/header.php";
     ?>
-    <div class="container-fluid text-center">
-        <div class="row">
+    <div class="container-fluid text-center main-container">
+        <div class="col-md-12">
+            
+        <div class="row justify-content-around">
             <div class="col-md-4">
-                <h2>Entrar</h2>
+                <h2 class="auth-h2">Entrar</h2>
                 <form action="#">
                     <div>
                         <label class="form-label" for="email">E-mail:</label>
@@ -26,13 +28,15 @@
                         <label class="form-label" for="password">Senha:</label>
                         <input class="form-control" type="password" id="password" name="password" placeholder="Senha">
                     </div>
-                    <div>
-                        <button type="submit" class="btn btn-primary">Entrar</button>
-                    </div>
+                    
+                    <?php
+                    require_once "./components/btn.php";
+                ?>
+                    
                 </form>
             </div>
             <div class="col-md-4">
-                <h2>Registrar</h2>
+                <h2 class="auth-h2">Registrar</h2>
                 <form action="#">
                     <div>
                         <label class="form-label" for="email">E-mail:</label>
@@ -54,16 +58,17 @@
                         <label class="form-label" for="password">Confirmação da senha:</label>
                         <input class="form-control" type="password" id="password" name="password" placeholder="Confirme a senha">
                     </div>
-                    <div>
-                        <button type="submit" class="btn btn-primary">Entrar</button>
-                    </div>
+                    
+                    <?php
+                    require_once "./components/btn.php";
+                    ?>
                 </form>
             </div>
         </div>
 
 
     </div>
-
+    </div>
 
     <?php
     require_once "./components/footer.php";
