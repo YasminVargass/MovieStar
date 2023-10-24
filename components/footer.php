@@ -1,4 +1,4 @@
-<footer>
+<footer class="bg-dark">
 
     <div class="container-links">
         <div class="medias-icons">

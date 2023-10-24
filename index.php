@@ -3,7 +3,7 @@
 
 <head>
     <?php
-    require_once "./components/head.php";
+    require_once ("./components/head.php");
     ?>
     <title>MovieStar</title>
 </head>
@@ -12,12 +12,12 @@
     <?php
     require_once "./components/header.php";
     ?>
-    <h1>Home</h1>
-<main class="main-container"> 
+    <main class="main-container">
+        <h1>Home</h1>
 
 
 
-</main>
+    </main>
 
     <?php
     require_once "./components/footer.php";
