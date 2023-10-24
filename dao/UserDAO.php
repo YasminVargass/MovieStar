@@ -1,13 +1,14 @@
 <?php
 
-include_once ("./models/User.php");
+include_once ("../models/User.php");
 
 class UserDAO implements UserDaoInterface{
     
     private $conn;
     
-public function __construct(PDO $conn){
+public function __construct(PDO $conn, $url){
     $this->conn = $conn;
+    $this->url = $url;
 }
     public function buildUser($data){
 
