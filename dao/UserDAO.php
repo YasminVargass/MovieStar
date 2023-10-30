@@ -1,6 +1,6 @@
 <?php
 
-include_once ("../models/User.php");
+include_once ("models/User.php");
 
 class UserDAO implements UserDaoInterface{
     

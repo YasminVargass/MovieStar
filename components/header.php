@@ -1,11 +1,16 @@
 <?php
-require_once ("./data/connection.php");
+  require_once("globals.php");
+  require_once("connection.php");
+  require_once("models/Message.php");
+  require_once("dao/UserDAO.php");
 
+ $message = new Message($BASE_URL);
 $flassmessage = [];
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 
 <body>
 
